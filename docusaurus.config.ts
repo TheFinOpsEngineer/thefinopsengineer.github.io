@@ -64,11 +64,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'The FOCUS Spec', // <--- Renamed from "Tutorial"
+          label: 'The FOCUS Spec', 
         },
-        {to: '/blog', label: 'Field Notes', position: 'left'}, // <--- Renamed from "Blog"
+        // {to: '/blog', label: 'Field Notes', position: 'left'}, <--- Commented out until we write a post
         {
-          href: 'https://github.com/[YOUR_GITHUB_USERNAME]/finops-engineer',
+          href: 'https://github.com/TheFinOpsEngineer/website', // Update if you haven't yet
           label: 'GitHub',
           position: 'right',
         },
@@ -82,7 +82,7 @@ const config: Config = {
           items: [
             {
               label: 'FOCUS Specification',
-              to: '/docs/intro',
+              to: '/docs/focus-certification/intro', // <--- FIXED LINK
             },
           ],
         },
@@ -92,6 +92,10 @@ const config: Config = {
             {
               label: 'LinkedIn',
               href: 'https://linkedin.com/in/[YOUR_PROFILE]',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/TheFinOpsEngineer',
             },
           ],
         },
