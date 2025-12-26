@@ -67,6 +67,9 @@ const config: Config = {
           label: 'The FOCUS Spec', 
         },
         // {to: '/blog', label: 'Field Notes', position: 'left'}, <--- Commented out until we write a post
+        
+        {to: '/about', label: 'About', position: 'left'},
+        
         {
           href: 'https://github.com/TheFinOpsEngineer/website', // Update if you haven't yet
           label: 'GitHub',
