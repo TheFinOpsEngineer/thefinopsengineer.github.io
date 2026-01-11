@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -14,8 +14,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '[YOUR_GITHUB_USERNAME]', // <--- Update this
-  projectName: 'finops-engineer', // <--- Update this
+  organizationName: 'TheFinOpsEngineer',
+  projectName: 'thefinopsengineer.github.io',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -33,7 +33,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Remove this to remove the "edit this page" links.
-          // editUrl: 'https://github.com/[YOUR_GITHUB_USERNAME]/finops-engineer/tree/main/',
+          editUrl: 'https://github.com/TheFinOpsEngineer/thefinopsengineer.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -41,7 +41,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // editUrl: 'https://github.com/[YOUR_GITHUB_USERNAME]/finops-engineer/tree/main/',
+          // editUrl: 'https://github.com/TheFinOpsEngineer/thefinopsengineer.github.io/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,12 +64,12 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'The FOCUS Spec', 
+          label: 'The FOCUS Spec',
         },
         // {to: '/blog', label: 'Field Notes', position: 'left'}, <--- Commented out until we write a post
-        
-        {to: '/about', label: 'About', position: 'left'},
-        
+
+        { to: '/about', label: 'About', position: 'left' },
+
         {
           href: 'https://github.com/TheFinOpsEngineer/website', // Update if you haven't yet
           label: 'GitHub',
@@ -94,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://linkedin.com/in/[YOUR_PROFILE]',
+              href: 'https://www.linkedin.com/company/anick16',
             },
             {
               label: 'GitHub',
