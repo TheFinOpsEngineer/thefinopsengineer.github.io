@@ -26,6 +26,11 @@ const config: Config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -66,7 +71,7 @@ const config: Config = {
           position: 'left',
           label: 'The FOCUS Spec',
         },
-        // {to: '/blog', label: 'Field Notes', position: 'left'}, <--- Commented out until we write a post
+        {to: '/blog', label: 'Field Notes', position: 'left'},
 
         { to: '/about', label: 'About', position: 'left' },
 
